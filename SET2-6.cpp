@@ -1,15 +1,12 @@
 #include <iostream>
 using namespace std;
-
 int main() {
 	 int a, b, i, c;
 
     cout << "Enter two numbers:\n ";
     cin >> a >> b;
-
-    cout << "Prime numbers between " << a << " and " << b << " are: ";
-
-    while (a < b)
+cout << "Prime numbers between " << a << " and " << b << " are: ";
+ while (a < b)
     {
         c = 0;
 
