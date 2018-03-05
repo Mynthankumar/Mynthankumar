@@ -2,11 +2,13 @@
 using namespace std;
 int main() 
 {
-int n,i,j,count;
+
+  int n,i,j,count;
 cout<<"Enter the value of N\n";
 cin>>n;
 int *arr=new int[n];
-cout<<"Enter the value of array\n";
+
+  cout<<"Enter the value of array\n";
 for(i=0;i<n;i++)
 {
 cin>>arr[i];
@@ -22,7 +24,8 @@ swap(arr[j],arr[j+1]);
 count++;
 }
 }
-if(count==0)
+
+  if(count==0)
 break;
 }
 cout<<"Middle element\n";
