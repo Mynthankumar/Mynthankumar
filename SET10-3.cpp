@@ -2,9 +2,9 @@
 using namespace std;
 int main() 
 {
-   int c,k;
+   int co,k;
    cout<<"enter the celsius value";
-   cin>>c;
-   k=c+273.15;
+   cin>>co;
+   k=co+273.15;
    cout<<k;
 }
