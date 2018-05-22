@@ -5,7 +5,7 @@ int main()
  int num,a=0;
  cout<<"Enter any num : ";
  cin>>num;
-while(m>0)
+while(num>0)
 {
  num=num/10;
  a++;
